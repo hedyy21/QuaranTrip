@@ -113,6 +113,7 @@ a {
 .list_container {
     position: relative;
     margin: 0 -30px 0 -50px;
+    border: 3px solid #000;
 }
 .list_container h1 {
     font-size: 40px;
@@ -125,6 +126,7 @@ a {
     align-content: space-around;
     justify-content: space-around;
     flex-flow: row wrap;
+    background-color: rgba(255, 255, 255, 0.2);
 }
 .list li {
     background-color: rgba(255, 255, 255, 0.8);
@@ -150,6 +152,12 @@ a {
     opacity: 1;
 }
 /* ------------------------------------- 반응형 코드 --------------------------------- */
+
+@media screen and (max-width: 1447px) {
+    .list {    
+        height: 1800px;
+    }
+}
 
 @media screen and (max-width: 1300px) {
     .navbar {
@@ -184,5 +192,54 @@ a {
     .navbar_menu.active,
     .navbar_sign.active {
         display: flex;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .list {    
+        height: 3450px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .TestBtn,
+    .PhotoBtn {
+        margin-left: 5px;
+    }
+    .list {    
+        height: 2650px;
+    }
+    .list li {
+        width: 245px;
+    }
+    .list img {
+        max-width:240px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .banner_container h1 {
+        font-size: 30px;
+    }
+    .banner_container p {
+        font-size: 16px;
+    }
+    .TestBtn,
+    .PhotoBtn {
+        font-size: 12px;
+        margin-left: 0px;
+    }
+
+    .list_container h1 {
+        font-size: 20px;
+    }
+    .list {    
+        height: 2300px;
+    }
+    .list li {
+        width: 205px;
+    }
+    .list img {
+        max-width:200px;
     }
 }
