@@ -29,6 +29,9 @@ a {
     margin-top: -10px;
     color: var(--text-color);
 }
+.navbar_logo img {
+    max-width: 40px;
+}
 .navbar_logo a {
     padding-top: -10px;
 }
