@@ -93,6 +93,7 @@ a {
 .TestBtn,
 .PhotoBtn {
     background-color: black;
+    font-size: 14px;
     padding: 8px 40px;
     margin-left: 15px;
     border-radius: 5px;
