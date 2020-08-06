@@ -93,10 +93,12 @@ a {
     border-radius: 15px;
 }
 .banner_container h1 {
+    text-align: center;
     color: var(--banner-text-color);
 }
 .banner_container p {
     font-size: 22px;
+    text-align: center;
     color: var(--banner-text-color);
 }
 .TestBtn,
@@ -208,9 +210,15 @@ a {
     }
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 986px) {
     .list {    
         height: 3450px;
+    }
+    .banner_container h1 {
+        text-align: left;
+    }
+    .banner_container p {
+        text-align: left;
     }
 }
 
