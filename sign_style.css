@@ -1,0 +1,27 @@
+.line3px {
+    border:1px solid rgb(0, 0, 0);
+}
+#email, #pw {
+    width: 250px;
+    height: 30px;
+    margin: 30px 0 10px 0;
+    border-radius: 5px;
+}
+#pw {
+    margin: 10px 0;
+}
+#signin, #signup {
+    background-color: var(--accent-color);
+    width: 260px;
+    height: 35px;
+    margin: 10px 0;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    color: var(--text-color);
+}
+#signin:hover,
+#signup:hover {
+    background-color: var(--accent-color1);
+    color: var(--accent-color);
+}

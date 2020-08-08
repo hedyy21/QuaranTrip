@@ -7,7 +7,7 @@
     <link rel="icon" href="https://img.icons8.com/cotton/64/000000/luggage.png">
     <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Oswald&display=swap" rel="stylesheet">
 
-    <title>Travel Propensity</title>
+    <title>Compositing Photo</title>
     <script src="main.js" defer></script>
     <script src="https://kit.fontawesome.com/a3320008ac.js" crossorigin="anonymous"></script>
 
@@ -37,12 +37,21 @@
     
         <div class="banner_tpt">
             <div class="banner_tpt_container">
-                <h1>Travel Propensity test</h1>
-                <br><p>I travel frequently.</p><br>            
-                <p>
-                    <a class="YNBtn" href="#" role="button">YES</a>
+                <h1>Compositing Photo</h1>
+                <br><p>Upload photos and get premium offers</p><br>
+
+                <form method="post" action="upload" enctype="multipart/form-data">
+
+                    <div>
+                      file : <input type="file" name="file" accept="image/*">
+                    </div>
+                    
+                    <input type="submit">
                     <a class="YNBtn" href="#" role="button">NO</a>
-                </p>
+                  
+                  </form>
+
+                
             </div>
         </div>
     
